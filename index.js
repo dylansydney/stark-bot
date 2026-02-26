@@ -220,7 +220,7 @@ async function askClaude(chatId, userMessage, userName) {
 
   try {
     const response = await anthropic.messages.create({
-      model: 'claude-sonnet-4-5-20250514',
+      model: 'claude-sonnet-4-5-20250929',
       max_tokens: 2048,
       system: buildSystemPrompt(chatId),
       messages: conversations[chatId]
