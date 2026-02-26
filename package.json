@@ -1,0 +1,13 @@
+{
+  "name": "stark-bot",
+  "version": "1.0.0",
+  "description": "Project Stark - Telegram Team Assistant powered by Claude AI",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "@anthropic-ai/sdk": "^0.39.0"
+  }
+}
